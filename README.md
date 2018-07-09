@@ -49,7 +49,12 @@ Browse [localhost:5000](http://localhost:5000). You should see your app running.
 You can edit any component file in `src`, save it, then reload the browser page to see your changes.
 
 
-## Deploying to the web
+## Deploy
+
+To deploy to the web, there are many choices.
+
+This demo shows how to deploy to the web by using a tool named "now".
+
 
 ### With [now](https://zeit.co/now)
 
@@ -67,17 +72,4 @@ now
 
 As an alternative, use the [Now desktop client](https://zeit.co/download) and simply drag the unzipped project folder to the taskbar icon.
 
-### With [surge](https://surge.sh/)
 
-Install `surge` if you haven't already:
-
-```bash
-npm install -g surge
-```
-
-Then, from within your project folder:
-
-```bash
-npm run build
-surge public
-```

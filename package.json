@@ -17,5 +17,8 @@
     "autobuild": "rollup -c -w",
     "dev": "run-p start autobuild",
     "start": "serve public"
+  },
+  "dependencies": {
+    "now": "^11.2.8"
   }
 }
