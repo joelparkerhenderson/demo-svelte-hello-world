@@ -9,7 +9,7 @@
     "rollup-plugin-node-resolve": "^3.4.0",
     "rollup-plugin-svelte": "^4.5.0",
     "rollup-plugin-uglify": "^3.0.0",
-    "serve": "^11.2.0",
+    "serve": "^14.2.0",
     "svelte": "^3.49.0"
   },
   "scripts": {
